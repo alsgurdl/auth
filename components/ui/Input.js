@@ -5,6 +5,7 @@ import { Colors } from '../../constants/styles';
 const Input = () => {
   return (
     <View style={styles.inputContainer}>
+      <TextInput />
       <TextInput style={styles.input} />
     </View>
   );

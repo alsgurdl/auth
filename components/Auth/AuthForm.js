@@ -5,10 +5,10 @@ const AuthForm = () => {
   return (
     <View>
       <View>
-        <Input />
-        <Input />
-        <Input />
-        <Input />
+        <Input label='이메일 주소' />
+        <Input label='이름' />
+        <Input label='비밀번호' />
+        <Input label='비밀번호 확인' />
       </View>
     </View>
   );
