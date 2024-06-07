@@ -21,7 +21,8 @@ const Input = ({ label, keyboardType, secure, onUpdateValue, value }) => {
 export default Input;
 const styles = StyleSheet.create({
   inputContainer: {
-    marginVertical: 8,
+    marginVerti
+    cal: 8,
   },
   input: {
     paddingVertical: 8,
