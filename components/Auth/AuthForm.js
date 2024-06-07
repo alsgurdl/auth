@@ -1,14 +1,17 @@
-import { View } from "react-native"
-
+import { View } from 'react-native';
+import Input from '../ui/Input';
 
 const AuthForm = () => {
   return (
     <View>
       <View>
-        <TE
+        <Input />
+        <Input />
+        <Input />
+        <Input />
       </View>
     </View>
-  )
-}
+  );
+};
 
-export default AuthForm
+export default AuthForm;
